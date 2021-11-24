@@ -50,19 +50,80 @@ body{
 /* PRINCIPAL */
 main{}
 
-/* SEÇÃO INFORMAÇÕES */
+/* SEÇÃO INFORMAÇÕES RESTAURANTE */
 .secaoInfoRestaurante{
-
+    margin-top: 40px;
+    margin-bottom: 70px;
 }
 .secaoInfoRestaurante > .container{}
 
-.secaoInfoRestaurante_descricao{}
-.logoRestaurante{}
-.logoRestaurante>img{}
-.logoRestaurante>figcaption{}
+.secaoInfoRestaurante_descricao{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.logoRestaurante{
+    background-color: #0000ff;
+    display:inline-block;
+    width: 42px;
+    height: 35px;
+    text-align: center;
+    border-radius: 100%;
+    padding-top: 6px;
+    margin-right: 20px;
+}
+.logoRestaurante>img{
+    width: 25px;
+}
+.logoRestaurante>figcaption{
+    display: none;
+}
+.nomeRestaurante{
+    font-weight: 600;
+    color: #717171;
+}
 
-.nomeRestaurante{}
+.pesquisar{
+    display: flex;
+    margin-left: 40px;
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
 
-.nomeRestaurante>button{}
-.nomeRestaurante>button>img{}
-.nomeRestaurante>input{}
+}
+.pesquisar>button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.pesquisar>button>img{
+    width: 30px;
+}
+.pesquisar>input{
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+
+/* SEÇÃO PRATOS EM DESTAQUE */
+
+.secaoPratosDestaques{}
+.secaoPratosDestaques_titulo{
+    font-size: 28px;
+    font-weight: 600;
+    color: #3e3e3e;
+}
+.secaoPratosDestaques_listaPratos{
+    display: flex;
+    
+}
+.secaoPratosDestaques_itemPrato{}
+.secaoPratosDestaques_itemPrato>a{}
+
+.secaoPratosDestaques_imgPrato{}
+.secaoPratosDestaques_imgPrato>img{
+    width: 200px;
+}
+.secaoPratosDestaques_imgPrato>figcaption{}
+
+.secaoPratosDestaques_nomePrato{}
+.secaoPratosDestaques_precoPrato{}
