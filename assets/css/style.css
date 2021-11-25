@@ -7,7 +7,7 @@ body{
 }
 /* Cabeçalho */
 .cabecalho{
-    background-color: #f7f7f7;
+    background-color: #fcfcfc;
     border-bottom: 2px solid #dcdcdc;
     
 }
@@ -48,7 +48,9 @@ body{
     font-weight: 600;
 }
 /* PRINCIPAL */
-main{}
+main{
+    margin-bottom: 230px;
+}
 
 /* SEÇÃO INFORMAÇÕES RESTAURANTE */
 .secaoInfoRestaurante{
@@ -96,7 +98,7 @@ main{}
     outline: none;
 }
 .pesquisar>button>img{
-    width: 30px;
+    width: 45px;
 }
 .pesquisar>input{
     border: none;
@@ -111,19 +113,60 @@ main{}
     font-size: 28px;
     font-weight: 600;
     color: #3e3e3e;
+    margin-bottom: 30px;
 }
-.secaoPratosDestaques_listaPratos{
-    display: flex;
+
+.secaoPratosDestaques_listasPratos{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.secaoPratosDestaques_itemPrato{
+    width: 32%;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    box-shadow: 2px 5px 3px 0px #d2d2d2;
+}
+.secaoPratosDestaques_itemPrato>a{
+    color: #3e3e3e;
+    text-decoration: none;
+    font-weight: 600;
+}
+.secaoPratosDestaques_itemPrato>a>figure{}
+.secaoPratosDestaques_itemPrato>a>figure>img{
+    width: 100%;
     
 }
-.secaoPratosDestaques_itemPrato{}
-.secaoPratosDestaques_itemPrato>a{}
-
-.secaoPratosDestaques_imgPrato{}
-.secaoPratosDestaques_imgPrato>img{
-    width: 200px;
+.secaoPratosDestaques_itemPrato>a>figure>figcaption{
+    display: none;
 }
-.secaoPratosDestaques_imgPrato>figcaption{}
 
-.secaoPratosDestaques_nomePrato{}
-.secaoPratosDestaques_precoPrato{}
+.secaoPratosDestaques_nomePrato{
+    padding-bottom: 90px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.secaoPratosDestaques_precoPrato{
+    display: inline-block;
+    padding-left: 15px;
+}
+
+
+/* CONTEÚDO PRINCIPAL */
+.conteudoPrincipal{
+    margin-top: 60px;
+}
+.conteudoPrincipal > .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* SEÇÃO SOBREMESAS */
+.secaoSobremesa{}
+.secaoSobremesa_titulo{}
+.secaoSobremesa_lista{}
+.secaoSobremesa_item{}
+.secaoSobremesa_descricao{}
