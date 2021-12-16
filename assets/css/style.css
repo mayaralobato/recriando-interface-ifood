@@ -180,7 +180,7 @@ main{
 .secaoSobremesas_item{
     margin-bottom: 32px;
     box-shadow: 2px 5px 3px 0px #d2d2d2;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .secaoSobremesas_item> a{
     text-decoration: none;
@@ -229,8 +229,8 @@ main{
     margin-top: 40px;
 }
 
-.secaoCarrinho__listaItens{}
-.secaoCarrinho__item{
+.secaoCarrinho_listaItens{}
+.secaoCarrinho_item{
     font-weight: 600;
     color: #3e3e3e;
     border-bottom: 2px solid #3E3E3E;
@@ -238,7 +238,7 @@ main{
     margin-bottom: 25px;
 }
 
-.secaoCarrinho__item > div{
+.secaoCarrinho_item > div{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -254,20 +254,20 @@ main{
     padding: 0;
 }
 
-.secaoCarrinho__total{
+.secaoCarrinho_total{
     font-weight: 600;
     color: #3e3e3e;
     display: flex;
     justify-content: space-between;
     margin-bottom: 80px;
 }
-.secaoCarrinho__total > p{}
-.secaoCarrinho__total > span{}
+.secaoCarrinho_total > p{}
+.secaoCarrinho_total > span{}
 
-.secaoCarrinho__formaPagamento{
+.secaoCarrinho_formaPagamento{
     text-align: center;
 }
-.secaoCarrinho__formaPagamento > button{
+.secaoCarrinho_formaPagamento > button{
     background-color: #EA1D2C;
     border: none;
     color: white;
